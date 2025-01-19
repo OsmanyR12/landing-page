@@ -23,7 +23,7 @@ body{
 .links ul{
   display: flex;
   justify-content: space-between;
-  gap: 13px;
+  gap: 15px;
   list-style: none;
 }
 .links a{
@@ -31,3 +31,56 @@ body{
   font-size: 18px;
   
 }
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937; 
+  padding-top:80px;
+  padding-bottom: 80px;
+  width: auto;
+}
+.body-container{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+.title, .image-container{
+  color:#F9FAF8;
+}
+.title{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.description{
+  margin-bottom: 8px;
+  color:#E5E7EB;
+}
+.image-container{
+  justify-content: center;
+  padding: 20px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-section button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 20px 8px 20px;
+  font-weight: bold;
+  color:#F9FAF8;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+
+
+
