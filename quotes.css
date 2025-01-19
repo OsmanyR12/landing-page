@@ -1,0 +1,71 @@
+.quote-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 80px 50px 80px 50px;
+}
+.quote-container p{
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.contact-section{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 300px;
+}
+.contact-container{
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  height: 145px;
+  width: fit-content;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.invitation{
+  display: flex;
+  flex-direction: column;
+  
+}
+.inv-title{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.inv-txt{
+  color: #e5e7eb;
+  font-size: 18px;
+
+}
+.contact-container button{
+  height: fit-content;
+  width: auto;
+  color: white;
+  border: 3px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding:6px 24px 6px 24px;
+  margin-left: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
+.footer p{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
